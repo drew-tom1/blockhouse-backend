@@ -13,7 +13,6 @@ def candle_data(request):
 
 @api_view(['GET'])
 def line_data(request):
-    print('lol')
     return Response({
         "labels": ["Jan", "Feb", "Mar", "Apr"],
         "data": [10, 20, 30, 40]
